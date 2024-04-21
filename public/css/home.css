@@ -83,6 +83,7 @@ body{
         padding-bottom: 20px;
         .listaNav{
             flex-direction: column;
+            padding-left: 0px;
            
             row-gap: 15px;
             .listaItem{
