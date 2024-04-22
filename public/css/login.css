@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+body {
+        display: block;
+    text-align:center;
+    align-items: center;
+    font-size: 1.5rem;
+    box-sizing: border-box; 
+    
+    padding: 20px 20px;
+    height: 100vh;
+    height: 100vh;
+    background: linear-gradient(to right top, #24242473, #68474773), url(./images/img/bg-register.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.form-login-container{
+    
+    background-color: rgb(42, 42, 42);;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-size: 1.2rem;
+}
+.error-text{
+    color: #ff0000;
+    font-size: 0.8rem;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#logo {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    text-align:left;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    
+}
+.tituloLogin {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    
+}
+h1{
+    color: #ffffff;
+}
+
+#email{
+    height: 40px;
+    width: 80%;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+    font-size: 1.5rem;
+    background-color: rgb(42, 42, 42);
+    border: 2px solid #9f3647;
+    border-radius: 25px;
+    box-sizing: content-box;
+    color: #ffffff;
+    
+}
+#password {
+    height: 40px;
+    width: 80%;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+    font-size: 1.5rem;
+    background-color: rgb(42, 42, 42);
+    border: 2px solid #9f3647;
+    border-radius: 25px;
+    box-sizing: content-box;
+    color:#ffffff
+    }
+.boton {
+    box-sizing: content-box;
+    background-color:#9f3647;
+    border: 2px solid #9f3647;
+    color: #ffffff;
+    padding: 1rem 6rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.registrarse {
+    margin-top: 40px;
+    font-family: 'Nunito', sans-serif;
+    color: #787878;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 700;
+     
+}
+/*section{
+    position:
+    top: 20%;
+    transform: translate(10%);
+    background:#181419;
+    align-items: center;
+    width: 70%;
+    padding: 40px;
+    text-align: center;
+    
+    
+}*/
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(23, 23, 23);
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #9f3647;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background:#9f3647;
+}
