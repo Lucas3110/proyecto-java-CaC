@@ -100,7 +100,22 @@
     margin-bottom: 80px;
     cursor: pointer;
 }
-.bodyRegistrarse .main .seccionRegistrarse form .boton:hover {
+/* .bodyRegistrarse .main .seccionRegistrarse form .boton:hover {
+    background-color: #d9364e;
+    border-color: #d9364e;
+} */
+.boton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+
+.boton:not(:disabled) {
+    background-color: #9f3647;
+    border-color: #9f3647;
+}
+
+.boton:not(:disabled):hover {
     background-color: #d9364e;
     border-color: #d9364e;
 }
