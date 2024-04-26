@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.bodyRegistrarse {
+    height: 100vh;
+    background: linear-gradient(to right top, #24242473, #24242473), url("../css/images/img/bg-register.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.bodyRegistrarse .header {
+    height: 8vh;
+    padding: 30px;
+}
+
+.bodyRegistrarse .header .anclaLogo {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+/* .bodyRegistrarse .headerRegistrarse .anclaLogo:hover {
+    animation: tilt-n-move-shaking 0.25s infinite;
+} */
+
+.bodyRegistrarse .main .seccionRegistrarse {
+    background-color: rgb(42, 42, 42);
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-size: 1.2rem;
+}
+
+.bodyRegistrarse .main .seccionRegistrarse .tituloRegistrarse {
+   
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #f8f3f3fe;
+    padding-top:30px;
+}
+
+.bodyRegistrarse .main .seccionRegistrarse form {
+    width: 100%;
+    padding: 40px;
+}
+
+.bodyRegistrarse .main .seccionRegistrarse form input:not(.terminos, .boton),
+.bodyRegistrarse .main .seccionRegistrarse form select {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 0px 20px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border: 2px solid #9f3647;
+    background-color: #333333;
+    outline: none;
+    color: white;
+}
+
+.bodyRegistrarse .main .seccionRegistrarse form .terminos {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: normal;
+    margin-bottom: 0;
+}
+
+.bodyRegistrarse .main .seccionRegistrarse form .terminos .textoCheck {
+    margin-left: 7px;
+    padding-top: 15px;
+    color: #f1eeeefb;
+}
+.bodyRegistrarse .main .seccionRegistrarse form .terminos .check {
+    width: 5%;
+}
+
+.bodyRegistrarse .main .seccionRegistrarse form .boton {
+    width: 87%;
+    box-sizing: content-box;
+    background-color: #9f3647;
+    border: 2px solid #9f3647;
+    color: #ffffff;
+    padding: 0.9rem 0.9rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+.bodyRegistrarse .main .seccionRegistrarse form .boton:hover {
+    background-color: #d9364e;
+    border-color: #d9364e;
+}
+
+
+@media screen and (max-width: 768px) {
+    .bodyRegistrarse .main .seccionRegistrarse {
+        width: 80%;
+    }
+}
+
+
